@@ -1,0 +1,13 @@
+{
+  "name": "qiang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "repository": "git@github.com:ChristYoung/qiang.git",
+  "author": "'jay.yang' <'858851768@qq.com'>",
+  "license": "MIT"
+}
