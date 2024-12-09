@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qiangs",
+  "info": {
+    "singularName": "qiang",
+    "pluralName": "qiangs",
+    "displayName": "每日一枪"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "blocks",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true,
+      "unique": true
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
